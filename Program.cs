@@ -38,6 +38,7 @@ namespace CertificateInstaller
                         catch (Exception ex)
                         {
                             MessageBox.Show($"FAILURE: {ex.Message} ({ex.GetType().FullName})", "Certificate Install Failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            Environment.Exit(1);
                         }
                         finally
                         {
@@ -58,6 +59,7 @@ namespace CertificateInstaller
                         catch (Exception ex)
                         {
                             MessageBox.Show($"FAILURE: {ex.Message} ({ex.GetType().FullName})", "Certificate Install Failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            Environment.Exit(1);
                         }
                         finally
                         {
@@ -75,6 +77,7 @@ namespace CertificateInstaller
                         catch (Exception ex)
                         {
                             MessageBox.Show($"FAILURE: {ex.Message} ({ex.GetType().FullName})", "Certificate Install Failure", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            Environment.Exit(1);
                         }
                         finally
                         {
